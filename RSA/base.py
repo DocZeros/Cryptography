@@ -84,6 +84,7 @@ d = invMod(e, phi)
 #public key = (n, e)
 #private key = (n, d)
 
+#this is just to illustrate with a random plaintext
 m = random.randint(0, 1230)
 c = powMod(m, e, n)
 print(f'{m} -> {c}', end = '')
